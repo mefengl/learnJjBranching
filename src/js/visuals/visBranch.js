@@ -414,9 +414,14 @@ var VisBranch = VisBase.extend({
     var selected = this.get('branch') === this.gitEngine.HEAD.get('target');
     var isRemote = this.getIsRemote();
     var isHg = this.gitEngine.getIsHg();
+    var isJj = this.gitEngine.mode === 'jj';
 
-    if (name === 'HEAD' && isHg) {
-      name = '.';
+    if (name === 'HEAD') {
+      if (isHg) {
+        name = '.';
+      } else if (isJj) {
+        name = '@';
+      }
     }
 
     var after = (selected && !this.getIsInOrigin() && !isRemote) ? '*' : '';

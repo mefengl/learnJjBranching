@@ -3,13 +3,15 @@ var intl = require('../intl');
 var Errors = require('../util/errors');
 var GitCommands = require('../git/commands');
 var MercurialCommands = require('../mercurial/commands');
+var JjCommands = require('../jj/commands');
 
 var CommandProcessError = Errors.CommandProcessError;
 var CommandResult = Errors.CommandResult;
 
 var commandConfigs = {
   'git': GitCommands.commandConfig,
-  'hg': MercurialCommands.commandConfig
+  'hg': MercurialCommands.commandConfig,
+  'jj': JjCommands.commandConfig
 };
 
 var commands = {
@@ -49,7 +51,7 @@ var commands = {
   },
 
   blankMap: function() {
-    return {git: {}, hg: {}};
+    return {git: {}, hg: {}, jj: {}};
   },
 
   getShortcutMap: function() {

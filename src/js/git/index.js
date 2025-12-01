@@ -1709,7 +1709,8 @@ GitEngine.prototype.resolveStringRef = function(ref) {
   // Attempt to split ref string into a reference and a string of ~ and ^ modifiers.
   var startRef = null;
   var relative = null;
-  var regex = /^([a-zA-Z0-9]+)(([~\^]\d*)*)$/;
+  // Allow @ for jj
+  var regex = /^([a-zA-Z0-9@]+)(([~\^]\d*)*)$/;
   var matches = regex.exec(ref);
   if (matches) {
     startRef = matches[1];
@@ -1718,6 +1719,10 @@ GitEngine.prototype.resolveStringRef = function(ref) {
     throw new GitError({
       msg: intl.str('git-error-exist', {ref: ref})
     });
+  }
+
+  if (startRef === '@' && this.mode === 'jj') {
+    startRef = 'HEAD';
   }
 
   if (!this.refs[startRef]) {

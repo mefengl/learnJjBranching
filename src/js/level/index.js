@@ -194,7 +194,8 @@ var Level = Sandbox.extend({
   initVisualization: function(options) {
     this.mainVis = new Visualization({
       el: options.el || this.getDefaultVisEl(),
-      treeString: options.level.startTree
+      treeString: options.level.startTree,
+      mode: options.level.mode
     });
   },
 

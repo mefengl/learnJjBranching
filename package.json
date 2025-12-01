@@ -1,9 +1,12 @@
 {
-  "name": "LearnGitBranching",
-  "version": "0.8.0",
-  "description": "An interactive git visualization to challenge and educate!",
-  "homepage": "https://learngitbranching.js.org",
+  "name": "LearnJjBranching",
+  "version": "0.1.0",
+  "description": "An interactive jj (Jujutsu) visualization to challenge and educate!",
+  "homepage": "https://mefengl.github.io/learnJjBranching",
   "author": "Peter Cottle <petermcottle@gmail.com>",
+  "contributors": [
+    "mefengl"
+  ],
   "license": "MIT",
   "scripts": {
     "preinstall": "node scripts/check-package-manager.js",
@@ -14,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pcottle/learnGitBranching"
+    "url": "https://github.com/mefengl/learnJjBranching"
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",

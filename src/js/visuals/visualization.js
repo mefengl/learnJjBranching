@@ -64,6 +64,9 @@ var Visualization = Backbone.View.extend({
       eventBaton: this.eventBaton
     });
     this.gitEngine.init();
+    if (options.mode) {
+      this.gitEngine.setMode(options.mode);
+    }
     this.gitVisuals.assignGitEngine(this.gitEngine);
 
     this.myResize();

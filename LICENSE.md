@@ -1,6 +1,7 @@
 ## MIT License
 
-Copyright (c) 2012-2025 Peter Cottle
+Copyright (c) 2012-2025 Peter Cottle (original learnGitBranching)
+Copyright (c) 2025 mefengl (learnJjBranching fork)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
