@@ -26,8 +26,16 @@ jobs:
       - name: Build
         run: npx gulp fastBuild
 
+      - name: Prepare publish directory
+        run: |
+          mkdir -p dist/build
+          mkdir -p dist/assets
+          cp -r build/* dist/build/
+          cp index.html dist/
+          cp -r assets/* dist/assets/
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
+          publish_dir: ./dist
