@@ -87,7 +87,7 @@ var vcsModeRefresh = function(eventData) {
   var otherMode = (displayMode === 'Git') ? 'Hg' : 'Git';
   var regex = new RegExp(otherMode, 'g');
 
-  document.title = intl.str('learn-git-branching').replace(regex, displayMode);
+  document.title = intl.str('learn-jj-branching').replace(regex, displayMode);
   $('span.vcs-mode-aware').each(function(i, el) {
     var text = $(el).text().replace(regex, displayMode);
     $(el).text(text);

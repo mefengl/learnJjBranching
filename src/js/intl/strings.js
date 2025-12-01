@@ -919,7 +919,7 @@ exports.strings = {
     "ta_IN": "`tree string`ஐ கீழே நகலெடுக்கவும்",
     "tr_TR": "Aşağıdaki ağaç dizesini kopyalayın"
   },
-  "learn-git-branching": {
+  "learn-jj-branching": {
     "__desc__": "The title of the app, with spaces",
     "en_US": "Learn jj Branching",
     "de_DE": "Lerne jj Branching",
