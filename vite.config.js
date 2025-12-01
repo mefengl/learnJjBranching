@@ -1,14 +1,16 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig(({ command, mode, isSsrBuild, isPreview }) => {
+  const base = process.env.GITHUB_ACTIONS ? '/learnJjBranching/' : '/';
+  
   if (command === 'serve') {
     return {
-      // dev specific config
+      base,
     }
   } else {
     // command === 'build'
     return {
-      // build specific config
+      base,
     }
   }
 })
