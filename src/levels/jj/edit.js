@@ -90,10 +90,6 @@ exports.level = {
             "markdowns": [
               "## The `jj edit` Command",
               "",
-              "```",
-              "$ jj edit C2",
-              "Working copy now at: ootnlvpt e13b2585 my feature",
-              "```",
               "",
               "`jj edit` sets your working copy to edit a specific change. Any file changes you make will modify that change directly.",
               "",
@@ -109,10 +105,8 @@ exports.level = {
               "",
               "Need to split your work? Insert a change before the current one:",
               "",
-              "```",
               "$ jj new -B @ -m \"refactor first\"",
               "Rebased 1 descendant commits",
-              "```",
               "",
               "The `-B` flag means \"before\". jj automatically rebases all descendants - and **this always succeeds!**",
               "",
@@ -157,9 +151,7 @@ exports.level = {
               "",
               "You're at C3 but need to edit C2. Switch to editing it:",
               "",
-              "```",
               "jj edit C2",
-              "```",
               "",
               "This is the core of the edit workflow - jump around and edit any change directly!"
             ]
@@ -191,10 +183,6 @@ exports.level = {
             "markdowns": [
               "## `jj edit` 命令",
               "",
-              "```",
-              "$ jj edit C2",
-              "Working copy now at: ootnlvpt e13b2585 my feature",
-              "```",
               "",
               "`jj edit` 设置你的工作副本来编辑特定变更。你做的任何文件更改都会直接修改那个变更。",
               "",
@@ -210,10 +198,8 @@ exports.level = {
               "",
               "需要拆分你的工作？在当前变更之前插入一个：",
               "",
-              "```",
               "$ jj new -B @ -m \"refactor first\"",
               "Rebased 1 descendant commits",
-              "```",
               "",
               "`-B` 标志意思是 \"之前\"。jj 自动变基所有后代 - 而且**这总是成功的！**",
               "",
@@ -258,9 +244,7 @@ exports.level = {
               "",
               "你在 C3 但需要编辑 C2。切换到编辑它：",
               "",
-              "```",
               "jj edit C2",
-              "```",
               "",
               "这是 edit 工作流的核心 - 跳转并直接编辑任何变更！"
             ]

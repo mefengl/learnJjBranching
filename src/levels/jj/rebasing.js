@@ -92,9 +92,7 @@ exports.level = {
             "markdowns": [
               "## The `jj rebase` Command",
               "",
-              "```",
               "$ jj rebase -r C3 -d C2",
-              "```",
               "",
               "* `-r` (revision): which change to move",
               "* `-d` (destination): where to move it to",
@@ -147,9 +145,7 @@ exports.level = {
               "",
               "We have C2 and C3 both branching from C1. Create a linear history by rebasing C3 onto C2:",
               "",
-              "```",
               "jj rebase -r C3 -d C2",
-              "```",
               "",
               "After this, C3 will have C2 as its parent instead of C1!"
             ]
@@ -181,9 +177,7 @@ exports.level = {
             "markdowns": [
               "## `jj rebase` 命令",
               "",
-              "```",
               "$ jj rebase -r C3 -d C2",
-              "```",
               "",
               "* `-r` (revision): 要移动哪个变更",
               "* `-d` (destination): 移动到哪里",
@@ -236,9 +230,7 @@ exports.level = {
               "",
               "我们有 C2 和 C3 都从 C1 分支出来。通过将 C3 变基到 C2 来创建线性历史：",
               "",
-              "```",
               "jj rebase -r C3 -d C2",
-              "```",
               "",
               "之后，C3 将以 C2 为父变更，而不是 C1！"
             ]
@@ -268,9 +260,7 @@ exports.level = {
             "markdowns": [
               "## Der `jj rebase` Befehl",
               "",
-              "```",
               "$ jj rebase -r C3 -d C2",
-              "```",
               "",
               "* `-r` (revision): welche Änderung verschieben",
               "* `-d` (destination): wohin verschieben",
@@ -318,9 +308,7 @@ exports.level = {
             "markdowns": [
               "## `jj rebase` コマンド",
               "",
-              "```",
               "$ jj rebase -r C3 -d C2",
-              "```",
               "",
               "* `-r` (revision): 移動する変更",
               "* `-d` (destination): 移動先",
@@ -368,9 +356,7 @@ exports.level = {
             "markdowns": [
               "## `jj rebase` 명령",
               "",
-              "```",
               "$ jj rebase -r C3 -d C2",
-              "```",
               "",
               "* `-r` (revision): 이동할 변경",
               "* `-d` (destination): 이동 목적지",
@@ -418,9 +404,7 @@ exports.level = {
             "markdowns": [
               "## La commande `jj rebase`",
               "",
-              "```",
               "$ jj rebase -r C3 -d C2",
-              "```",
               "",
               "* `-r` (revision) : quel changement déplacer",
               "* `-d` (destination) : où le déplacer",
@@ -468,9 +452,7 @@ exports.level = {
             "markdowns": [
               "## El comando `jj rebase`",
               "",
-              "```",
               "$ jj rebase -r C3 -d C2",
-              "```",
               "",
               "* `-r` (revision): qué cambio mover",
               "* `-d` (destination): a dónde moverlo",
@@ -588,9 +570,7 @@ exports.level = {
             "markdowns": [
               "## O comando `jj rebase`",
               "",
-              "```",
               "$ jj rebase -r C3 -d C2",
-              "```",
               "",
               "* `-r` (revision): qual mudança mover",
               "* `-d` (destination): para onde mover",
@@ -663,9 +643,7 @@ exports.level = {
             "markdowns": [
               "## `jj rebase` 命令",
               "",
-              "```",
               "$ jj rebase -r C3 -d C2",
-              "```",
               "",
               "* `-r` (revision): 要移動哪個變更",
               "* `-d` (destination): 移動到哪裡",
@@ -713,9 +691,7 @@ exports.level = {
             "markdowns": [
               "## Команда `jj rebase`",
               "",
-              "```",
               "$ jj rebase -r C3 -d C2",
-              "```",
               "",
               "* `-r` (revision): какое изменение перемещать",
               "* `-d` (destination): куда перемещать",

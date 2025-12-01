@@ -80,14 +80,11 @@ exports.level = {
               "",
               "In jj, you delete commits with `jj abandon`:",
               "",
-              "```",
               "jj abandon <change-id>",
-              "```",
               "",
               "You can also use revsets:",
-              "```",
               "jj abandon 'description(\"Experiment\")'",
-              "```"
+              ""
             ]
           }
         },
@@ -104,10 +101,9 @@ exports.level = {
               "",
               "By default, commits on `main` and commits that have been pushed are immutable. This prevents you from accidentally rewriting shared history!",
               "",
-              "```",
               "$ jj abandon main",
               "Error: Commit is immutable",
-              "```"
+              ""
             ]
           }
         },
@@ -119,11 +115,9 @@ exports.level = {
               "",
               "Made changes to a file that you want to undo? Use `jj restore`:",
               "",
-              "```",
               "jj restore <file>           # restore to parent state",
               "jj restore                  # restore ALL files",
               "jj restore --from <rev> <file>  # restore from any commit",
-              "```",
               "",
               "This is more precise than `jj undo` - it only affects the files you specify, not the entire operation."
             ]
@@ -150,9 +144,7 @@ exports.level = {
               "",
               "You have an unwanted commit C3. Abandon it:",
               "",
-              "```",
               "jj abandon C3",
-              "```",
               "",
               "Remember: you can always `jj undo` if you abandon something by mistake!"
             ]
@@ -172,14 +164,11 @@ exports.level = {
               "",
               "在 jj 中，你用 `jj abandon` 删除提交：",
               "",
-              "```",
               "jj abandon <change-id>",
-              "```",
               "",
               "你也可以使用修订集：",
-              "```",
               "jj abandon 'description(\"实验\")'",
-              "```"
+              ""
             ]
           }
         },
@@ -196,10 +185,9 @@ exports.level = {
               "",
               "默认情况下，`main` 上的提交和已推送的提交是不可变的。这可以防止你意外改写共享历史！",
               "",
-              "```",
               "$ jj abandon main",
               "Error: Commit is immutable",
-              "```"
+              ""
             ]
           }
         },
@@ -211,11 +199,9 @@ exports.level = {
               "",
               "对文件做了想撤销的更改？使用 `jj restore`：",
               "",
-              "```",
               "jj restore <file>           # 恢复到父提交状态",
               "jj restore                  # 恢复所有文件",
               "jj restore --from <rev> <file>  # 从任意提交恢复",
-              "```",
               "",
               "这比 `jj undo` 更精确 - 它只影响你指定的文件，而不是整个操作。"
             ]
@@ -242,9 +228,7 @@ exports.level = {
               "",
               "你有一个不需要的提交 C3。放弃它：",
               "",
-              "```",
               "jj abandon C3",
-              "```",
               "",
               "记住：如果你错误地放弃了什么，你总是可以 `jj undo`！"
             ]

@@ -93,11 +93,6 @@ exports.level = {
             "markdowns": [
               "## The `jj squash` Command",
               "",
-              "```",
-              "$ jj squash",
-              "Working copy now at: oopolqyp 9fb63b14 (empty) (no description set)",
-              "Parent commit      : ywnkulko ed71bb54 print goodbye as well as hello",
-              "```",
               "",
               "`jj squash` moves all changes from `@` into its parent. After squashing:",
               "* `@` becomes empty again",
@@ -148,9 +143,7 @@ exports.level = {
               "",
               "You're at C3 with some changes. Squash them into the parent (C2):",
               "",
-              "```",
               "jj squash",
-              "```",
               "",
               "This is the core of the squash workflow - work in @, then squash when ready!"
             ]
@@ -183,11 +176,6 @@ exports.level = {
             "markdowns": [
               "## `jj squash` 命令",
               "",
-              "```",
-              "$ jj squash",
-              "Working copy now at: oopolqyp 9fb63b14 (empty) (no description set)",
-              "Parent commit      : ywnkulko ed71bb54 print goodbye as well as hello",
-              "```",
               "",
               "`jj squash` 将所有更改从 `@` 移入其父变更。压缩后：",
               "* `@` 再次变为空",
@@ -238,9 +226,7 @@ exports.level = {
               "",
               "你在 C3，有一些更改。把它们压缩到父变更（C2）：",
               "",
-              "```",
               "jj squash",
-              "```",
               "",
               "这是 squash 工作流的核心 - 在 @ 中工作，然后准备好时压缩！"
             ]

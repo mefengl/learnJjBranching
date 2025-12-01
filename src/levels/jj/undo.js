@@ -92,16 +92,6 @@ exports.level = {
             "markdowns": [
               "## `jj undo` and `jj redo`",
               "",
-              "```",
-              "$ jj undo",
-              "Working copy now at: pzoqtwuv 9353442b (empty) (no description set)",
-              "```",
-              "",
-              "Each `jj undo` takes one step back. You can undo multiple times to go further back!",
-              "",
-              "```",
-              "$ jj redo",
-              "```",
               "",
               "Changed your mind? `jj redo` restores what you undid. Just like Ctrl+Shift+Z!"
             ]
@@ -145,9 +135,7 @@ exports.level = {
               "",
               "You just created C3 but realized it was a mistake. Undo it:",
               "",
-              "```",
               "jj undo",
-              "```",
               "",
               "The operation log is your safety net - experiment freely, knowing you can always go back!"
             ]
@@ -179,16 +167,6 @@ exports.level = {
             "markdowns": [
               "## `jj undo` 和 `jj redo`",
               "",
-              "```",
-              "$ jj undo",
-              "Working copy now at: pzoqtwuv 9353442b (empty) (no description set)",
-              "```",
-              "",
-              "每次 `jj undo` 后退一步。你可以多次撤销以回到更早的状态！",
-              "",
-              "```",
-              "$ jj redo",
-              "```",
               "",
               "改变主意了？`jj redo` 恢复你撤销的内容。就像 Ctrl+Shift+Z！"
             ]
@@ -232,9 +210,7 @@ exports.level = {
               "",
               "你刚创建了 C3 但意识到这是个错误。撤销它：",
               "",
-              "```",
               "jj undo",
-              "```",
               "",
               "操作日志是你的安全网 - 放心实验，知道你随时可以回去！"
             ]

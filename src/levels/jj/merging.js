@@ -79,12 +79,10 @@ exports.level = {
               "",
               "And how do we make new changes? With `jj new`!",
               "",
-              "```",
               "$ jj new C2 C3 -m \"merge both features\"",
               "Working copy now at: rxzyvnkx f1c1bde8 (empty) merge both features",
               "Parent commit      : pzoqtwuv 9353442b (empty) feature one",
               "Parent commit      : yykpmnuq 210283e8 (empty) feature two",
-              "```",
               "",
               "Just pass multiple parents to `jj new`. That's it!"
             ]
@@ -100,9 +98,7 @@ exports.level = {
               "",
               "With `jj new`, you can even merge 3 or more branches at once:",
               "",
-              "```",
               "$ jj new A B C -m \"merge three features\"",
-              "```",
               "",
               "Try doing that easily in Git!",
               "",
@@ -134,9 +130,7 @@ exports.level = {
               "",
               "Merge them by creating a new change with both as parents:",
               "",
-              "```",
               "jj new C2 C3",
-              "```",
               "",
               "No special merge command needed - just create a new change with multiple parents!"
             ]
@@ -158,12 +152,10 @@ exports.level = {
               "",
               "我们如何创建新变更？用 `jj new`！",
               "",
-              "```",
               "$ jj new C2 C3 -m \"merge both features\"",
               "Working copy now at: rxzyvnkx f1c1bde8 (empty) merge both features",
               "Parent commit      : pzoqtwuv 9353442b (empty) feature one",
               "Parent commit      : yykpmnuq 210283e8 (empty) feature two",
-              "```",
               "",
               "只需给 `jj new` 传递多个父变更。就这样！"
             ]
@@ -179,9 +171,7 @@ exports.level = {
               "",
               "使用 `jj new`，你甚至可以一次合并 3 个或更多分支：",
               "",
-              "```",
               "$ jj new A B C -m \"merge three features\"",
-              "```",
               "",
               "试试在 Git 中轻松做到这一点！",
               "",
@@ -213,9 +203,7 @@ exports.level = {
               "",
               "通过创建一个以两者为父变更的新变更来合并它们：",
               "",
-              "```",
               "jj new C2 C3",
-              "```",
               "",
               "不需要专门的 merge 命令 - 只需创建一个有多个父变更的新变更！"
             ]
@@ -247,9 +235,8 @@ exports.level = {
               "",
               "Mit `jj new` kannst du sogar 3 oder mehr Branches auf einmal zusammenführen:",
               "",
-              "```",
               "$ jj new A B C -m \"merge three features\"",
-              "```"
+              ""
             ]
           }
         },
@@ -294,9 +281,8 @@ exports.level = {
               "",
               "`jj new`で3つ以上のブランチを一度にマージできます：",
               "",
-              "```",
               "$ jj new A B C -m \"merge three features\"",
-              "```"
+              ""
             ]
           }
         },
@@ -341,9 +327,8 @@ exports.level = {
               "",
               "`jj new`로 3개 이상의 브랜치를 한 번에 병합할 수 있습니다:",
               "",
-              "```",
               "$ jj new A B C -m \"merge three features\"",
-              "```"
+              ""
             ]
           }
         },
@@ -388,9 +373,8 @@ exports.level = {
               "",
               "Avec `jj new`, vous pouvez fusionner 3 branches ou plus en une fois :",
               "",
-              "```",
               "$ jj new A B C -m \"merge three features\"",
-              "```"
+              ""
             ]
           }
         },
@@ -435,9 +419,8 @@ exports.level = {
               "",
               "Con `jj new`, puedes fusionar 3 o más ramas a la vez:",
               "",
-              "```",
               "$ jj new A B C -m \"merge three features\"",
-              "```"
+              ""
             ]
           }
         },
@@ -620,9 +603,8 @@ exports.level = {
               "",
               "使用 `jj new`，你甚至可以一次合併 3 個或更多分支：",
               "",
-              "```",
               "$ jj new A B C -m \"merge three features\"",
-              "```"
+              ""
             ]
           }
         },

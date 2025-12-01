@@ -86,10 +86,8 @@ exports.level = {
               "In jj, you use `jj describe` to give your change a human-readable description.",
               "",
               "The simplest way is with the `-m` flag:",
-              "```",
               "$ jj describe -m \"Say goodbye\"",
               "Working copy now at: kntqzsqt e427edcf (empty) Say goodbye",
-              "```",
               "",
               "Notice something important: the **Change ID** (`kntqzsqt`) stayed the same, but the **Commit ID** changed! This is the power of jj's dual ID system - you can evolve your commit while keeping a stable reference."
             ]
@@ -122,15 +120,11 @@ exports.level = {
               "",
               "There's a convenient command that combines describe and new:",
               "",
-              "```",
               "jj commit -m \"my message\"",
-              "```",
               "",
               "This is equivalent to:",
-              "```",
               "jj describe -m \"my message\"",
               "jj new",
-              "```",
               "",
               "Use whichever feels more natural to you!"
             ]
@@ -181,10 +175,8 @@ exports.level = {
               "在 jj 中，你使用 `jj describe` 来给变更添加人类可读的描述。",
               "",
               "最简单的方式是使用 `-m` 标志：",
-              "```",
               "$ jj describe -m \"Say goodbye\"",
               "Working copy now at: kntqzsqt e427edcf (empty) Say goodbye",
-              "```",
               "",
               "注意一个重要的事情：**Change ID** (`kntqzsqt`) 保持不变，但 **Commit ID** 改变了！这就是 jj 双 ID 系统的威力 - 你可以演进你的提交，同时保持一个稳定的引用。"
             ]
@@ -217,15 +209,11 @@ exports.level = {
               "",
               "有一个方便的命令结合了 describe 和 new：",
               "",
-              "```",
               "jj commit -m \"my message\"",
-              "```",
               "",
               "这等价于：",
-              "```",
               "jj describe -m \"my message\"",
               "jj new",
-              "```",
               "",
               "使用你觉得更自然的那个！"
             ]
@@ -273,9 +261,7 @@ exports.level = {
               "",
               "In jj verwendest du `jj describe` um deiner Änderung eine menschenlesbare Beschreibung zu geben.",
               "",
-              "```",
               "$ jj describe -m \"Say goodbye\"",
-              "```",
               "",
               "Wichtig: Die **Change ID** bleibt gleich, aber die **Commit ID** ändert sich!"
             ]
@@ -331,9 +317,7 @@ exports.level = {
               "",
               "jjでは`jj describe`を使って変更に説明を追加します。",
               "",
-              "```",
               "$ jj describe -m \"Say goodbye\"",
-              "```",
               "",
               "重要：**Change ID**は同じままですが、**Commit ID**は変わります！"
             ]
@@ -389,9 +373,7 @@ exports.level = {
               "",
               "jj에서는 `jj describe`로 변경에 설명을 추가합니다.",
               "",
-              "```",
               "$ jj describe -m \"Say goodbye\"",
-              "```",
               "",
               "중요: **Change ID**는 그대로지만, **Commit ID**는 바뀝니다!"
             ]
@@ -447,9 +429,7 @@ exports.level = {
               "",
               "Dans jj, utilisez `jj describe` pour donner une description lisible à votre changement.",
               "",
-              "```",
               "$ jj describe -m \"Say goodbye\"",
-              "```",
               "",
               "Important : le **Change ID** reste le même, mais le **Commit ID** change !"
             ]
@@ -505,9 +485,7 @@ exports.level = {
               "",
               "En jj, usas `jj describe` para dar a tu cambio una descripción legible.",
               "",
-              "```",
               "$ jj describe -m \"Say goodbye\"",
-              "```",
               "",
               "Importante: el **Change ID** se mantiene igual, ¡pero el **Commit ID** cambia!"
             ]
@@ -625,9 +603,7 @@ exports.level = {
               "",
               "No jj, você usa `jj describe` para dar uma descrição legível à sua mudança.",
               "",
-              "```",
               "$ jj describe -m \"Say goodbye\"",
-              "```",
               "",
               "Importante: o **Change ID** permanece o mesmo, mas o **Commit ID** muda!"
             ]
@@ -708,9 +684,7 @@ exports.level = {
               "",
               "在 jj 中，你使用 `jj describe` 來給變更添加人類可讀的描述。",
               "",
-              "```",
               "$ jj describe -m \"Say goodbye\"",
-              "```",
               "",
               "重要：**Change ID** 保持不變，但 **Commit ID** 改變了！"
             ]
@@ -766,9 +740,7 @@ exports.level = {
               "",
               "В jj используйте `jj describe` для добавления читаемого описания.",
               "",
-              "```",
               "$ jj describe -m \"Say goodbye\"",
-              "```",
               "",
               "Важно: **Change ID** остаётся прежним, но **Commit ID** меняется!"
             ]

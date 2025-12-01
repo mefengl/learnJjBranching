@@ -88,18 +88,6 @@ exports.level = {
             "markdowns": [
               "## Creating and Moving Bookmarks",
               "",
-              "```",
-              "$ jj bookmark create feature",
-              "$ jj log --limit 2",
-              "@  povouosx ... feature f68d1623",
-              "│  my new feature",
-              "```",
-              "",
-              "To move an existing bookmark:",
-              "```",
-              "$ jj bookmark set feature",
-              "Moved 1 bookmarks to ...",
-              "```",
               "",
               "**Important:** Bookmarks don't auto-move in jj! This is different from Git. You update them explicitly when ready to share."
             ]
@@ -113,9 +101,7 @@ exports.level = {
               "",
               "Don't want to think of a name? jj can generate one:",
               "",
-              "```",
               "$ jj git push --change @-",
-              "```",
               "",
               "This creates a bookmark like `push-rvpkrokuqrxt` based on the change ID. Quick and easy for sharing work-in-progress!",
               "",
@@ -147,9 +133,7 @@ exports.level = {
               "",
               "You're at C2 and want to create a bookmark to share your work. Create one named 'feature':",
               "",
-              "```",
               "jj bookmark create feature",
-              "```",
               "",
               "Remember: bookmarks are for sharing, not for everyday navigation. Change IDs are your primary way to reference changes!"
             ]
@@ -179,18 +163,6 @@ exports.level = {
             "markdowns": [
               "## 创建和移动书签",
               "",
-              "```",
-              "$ jj bookmark create feature",
-              "$ jj log --limit 2",
-              "@  povouosx ... feature f68d1623",
-              "│  my new feature",
-              "```",
-              "",
-              "移动现有书签：",
-              "```",
-              "$ jj bookmark set feature",
-              "Moved 1 bookmarks to ...",
-              "```",
               "",
               "**重要：** 书签在 jj 中不会自动移动！这与 Git 不同。你在准备好共享时显式更新它们。"
             ]
@@ -204,9 +176,7 @@ exports.level = {
               "",
               "不想想名字？jj 可以生成一个：",
               "",
-              "```",
               "$ jj git push --change @-",
-              "```",
               "",
               "这会基于 change ID 创建像 `push-rvpkrokuqrxt` 这样的书签。快速方便地分享进行中的工作！",
               "",
@@ -238,9 +208,7 @@ exports.level = {
               "",
               "你在 C2，想创建一个书签来分享你的工作。创建一个名为 'feature' 的书签：",
               "",
-              "```",
               "jj bookmark create feature",
-              "```",
               "",
               "记住：书签是用来共享的，不是用来日常导航的。Change ID 是你引用变更的主要方式！"
             ]

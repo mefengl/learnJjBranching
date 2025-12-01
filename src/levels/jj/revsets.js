@@ -124,9 +124,8 @@ exports.level = {
               "* `description(text)` - commits containing text",
               "",
               "Combine them! Find all your unshared work:",
-              "```",
               "jj log -r 'mine() & ::@ & ~::trunk()'",
-              "```"
+              ""
             ]
           }
         },
@@ -151,9 +150,7 @@ exports.level = {
               "",
               "You're at C3. Create a new change from the grandparent (C1) using relative revset syntax:",
               "",
-              "```",
               "jj new @--",
-              "```",
               "",
               "This creates a branch from C1, just like we did with anonymous branches - but now using revset syntax!"
             ]
@@ -219,9 +216,8 @@ exports.level = {
               "* `description(text)` - 包含文本的提交",
               "",
               "组合它们！找到所有未共享的工作：",
-              "```",
               "jj log -r 'mine() & ::@ & ~::trunk()'",
-              "```"
+              ""
             ]
           }
         },
@@ -246,9 +242,7 @@ exports.level = {
               "",
               "你在 C3。使用相对 revset 语法从祖父变更（C1）创建新变更：",
               "",
-              "```",
               "jj new @--",
-              "```",
               "",
               "这从 C1 创建了一个分支，就像我们用匿名分支做的一样 - 但现在使用 revset 语法！"
             ]

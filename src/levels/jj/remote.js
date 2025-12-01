@@ -95,9 +95,7 @@ exports.level = {
               "",
               "To get a copy of an existing repository:",
               "",
-              "```",
               "jj git clone https://github.com/user/repo.git my-project",
-              "```",
               "",
               "This creates a local copy with the remote automatically configured as `origin`."
             ]
@@ -111,15 +109,11 @@ exports.level = {
               "",
               "To send commits to the remote, you push a **bookmark**:",
               "",
-              "```",
               "jj git push --bookmark main",
-              "```",
               "",
               "For creating pull requests, you can create a bookmark automatically:",
               "",
-              "```",
               "jj git push -c @",
-              "```",
               "",
               "This creates a bookmark named `push-<change-id>` and pushes it."
             ]
@@ -133,15 +127,11 @@ exports.level = {
               "",
               "To get changes from the remote:",
               "",
-              "```",
               "jj git fetch",
-              "```",
               "",
               "This updates your remote-tracking bookmarks (like `main@origin`). To start working on top of the fetched changes:",
               "",
-              "```",
               "jj new main@origin",
-              "```",
               "",
               "Or simply `jj new main` if your local bookmark tracks the remote."
             ]
@@ -168,14 +158,11 @@ exports.level = {
               "",
               "Push the main bookmark to the remote:",
               "",
-              "```",
               "jj git push --bookmark main",
-              "```",
               "",
               "In real life, you'd first set up a remote with:",
-              "```",
               "jj git remote add origin <url>",
-              "```"
+              ""
             ]
           }
         }
@@ -207,9 +194,7 @@ exports.level = {
               "",
               "要获取现有仓库的副本：",
               "",
-              "```",
               "jj git clone https://github.com/user/repo.git my-project",
-              "```",
               "",
               "这会创建一个本地副本，远程自动配置为 `origin`。"
             ]
@@ -223,15 +208,11 @@ exports.level = {
               "",
               "要将提交发送到远程，你需要推送一个**书签**：",
               "",
-              "```",
               "jj git push --bookmark main",
-              "```",
               "",
               "对于创建拉取请求，你可以自动创建书签：",
               "",
-              "```",
               "jj git push -c @",
-              "```",
               "",
               "这会创建一个名为 `push-<change-id>` 的书签并推送它。"
             ]
@@ -245,15 +226,11 @@ exports.level = {
               "",
               "要从远程获取更改：",
               "",
-              "```",
               "jj git fetch",
-              "```",
               "",
               "这会更新你的远程跟踪书签（如 `main@origin`）。要开始在获取的更改之上工作：",
               "",
-              "```",
               "jj new main@origin",
-              "```",
               "",
               "或者简单地 `jj new main`，如果你的本地书签跟踪远程。"
             ]
@@ -280,14 +257,11 @@ exports.level = {
               "",
               "将 main 书签推送到远程：",
               "",
-              "```",
               "jj git push --bookmark main",
-              "```",
               "",
               "在实际使用中，你需要先设置远程：",
-              "```",
               "jj git remote add origin <url>",
-              "```"
+              ""
             ]
           }
         }

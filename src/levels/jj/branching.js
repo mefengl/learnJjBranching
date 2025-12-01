@@ -64,13 +64,11 @@ exports.level = {
               "",
               "When two changes share the same parent, they form a branch:",
               "",
-              "```",
               "       C2  (your work)",
               "      /",
               "C0--C1",
               "      \\",
               "       C3  (other work)",
-              "```",
               "",
               "At Meta, where a similar tool is used, almost nobody bothers to name their branches. You only add names when they provide value."
             ]
@@ -84,9 +82,7 @@ exports.level = {
               "",
               "To create a branch, simply create a new change from a specific parent:",
               "",
-              "```",
               "$ jj new main",
-              "```",
               "",
               "This creates a new change with `main` as its parent. If you already have work on `main`, this creates a fork!"
             ]
@@ -135,13 +131,11 @@ exports.level = {
               "",
               "当两个变更共享同一个父变更时，它们就形成了一个分支：",
               "",
-              "```",
               "       C2  (你的工作)",
               "      /",
               "C0--C1",
               "      \\",
               "       C3  (其他工作)",
-              "```",
               "",
               "在 Meta，使用类似工具的人几乎没人费心给分支命名。只有当名字能提供价值时才添加。"
             ]
@@ -155,9 +149,7 @@ exports.level = {
               "",
               "要创建分支，只需从特定父变更创建一个新变更：",
               "",
-              "```",
               "$ jj new main",
-              "```",
               "",
               "这将创建一个以 `main` 为父变更的新变更。如果你在 `main` 上已经有工作，这就创建了一个分叉！"
             ]
@@ -218,9 +210,8 @@ exports.level = {
               "",
               "Um einen Branch zu erstellen, erstelle einfach eine neue Änderung von einem bestimmten Eltern-Commit:",
               "",
-              "```",
               "$ jj new main",
-              "```"
+              ""
             ]
           }
         },
@@ -276,9 +267,8 @@ exports.level = {
               "",
               "特定の親から新しい変更を作成するだけです：",
               "",
-              "```",
               "$ jj new main",
-              "```"
+              ""
             ]
           }
         },
@@ -334,9 +324,8 @@ exports.level = {
               "",
               "특정 부모에서 새 변경을 만들기만 하면 됩니다:",
               "",
-              "```",
               "$ jj new main",
-              "```"
+              ""
             ]
           }
         },
@@ -390,9 +379,8 @@ exports.level = {
               "",
               "Créez simplement un nouveau changement à partir d'un parent spécifique :",
               "",
-              "```",
               "$ jj new main",
-              "```"
+              ""
             ]
           }
         },
@@ -444,9 +432,8 @@ exports.level = {
               "",
               "Simplemente crea un nuevo cambio desde un padre específico:",
               "",
-              "```",
               "$ jj new main",
-              "```"
+              ""
             ]
           }
         },
@@ -482,7 +469,7 @@ exports.level = {
         {
           "type": "ModalAlert",
           "options": {
-            "markdowns": ["## Crear una rama", "", "```", "$ jj new main", "```"]
+            "markdowns": ["## Crear una rama", "", "$ jj new main", ""]
           }
         },
         {
@@ -517,7 +504,7 @@ exports.level = {
         {
           "type": "ModalAlert",
           "options": {
-            "markdowns": ["## Crear una rama", "", "```", "$ jj new main", "```"]
+            "markdowns": ["## Crear una rama", "", "$ jj new main", ""]
           }
         },
         {
@@ -552,7 +539,7 @@ exports.level = {
         {
           "type": "ModalAlert",
           "options": {
-            "markdowns": ["## Criar um branch", "", "```", "$ jj new main", "```"]
+            "markdowns": ["## Criar um branch", "", "$ jj new main", ""]
           }
         },
         {
@@ -583,7 +570,7 @@ exports.level = {
         {
           "type": "ModalAlert",
           "options": {
-            "markdowns": ["## Crear unha rama", "", "```", "$ jj new main", "```"]
+            "markdowns": ["## Crear unha rama", "", "$ jj new main", ""]
           }
         },
         {
@@ -618,7 +605,7 @@ exports.level = {
         {
           "type": "ModalAlert",
           "options": {
-            "markdowns": ["## 建立分支", "", "```", "$ jj new main", "```"]
+            "markdowns": ["## 建立分支", "", "$ jj new main", ""]
           }
         },
         {
@@ -653,7 +640,7 @@ exports.level = {
         {
           "type": "ModalAlert",
           "options": {
-            "markdowns": ["## Создание ветки", "", "```", "$ jj new main", "```"]
+            "markdowns": ["## Создание ветки", "", "$ jj new main", ""]
           }
         },
         {
@@ -688,7 +675,7 @@ exports.level = {
         {
           "type": "ModalAlert",
           "options": {
-            "markdowns": ["## Створення гілки", "", "```", "$ jj new main", "```"]
+            "markdowns": ["## Створення гілки", "", "$ jj new main", ""]
           }
         },
         {
@@ -719,7 +706,7 @@ exports.level = {
         {
           "type": "ModalAlert",
           "options": {
-            "markdowns": ["## Tạo nhánh", "", "```", "$ jj new main", "```"]
+            "markdowns": ["## Tạo nhánh", "", "$ jj new main", ""]
           }
         },
         {
@@ -750,7 +737,7 @@ exports.level = {
         {
           "type": "ModalAlert",
           "options": {
-            "markdowns": ["## Crearea unei ramuri", "", "```", "$ jj new main", "```"]
+            "markdowns": ["## Crearea unei ramuri", "", "$ jj new main", ""]
           }
         },
         {
@@ -781,7 +768,7 @@ exports.level = {
         {
           "type": "ModalAlert",
           "options": {
-            "markdowns": ["## Ustvarjanje veje", "", "```", "$ jj new main", "```"]
+            "markdowns": ["## Ustvarjanje veje", "", "$ jj new main", ""]
           }
         },
         {
@@ -812,7 +799,7 @@ exports.level = {
         {
           "type": "ModalAlert",
           "options": {
-            "markdowns": ["## Tworzenie gałęzi", "", "```", "$ jj new main", "```"]
+            "markdowns": ["## Tworzenie gałęzi", "", "$ jj new main", ""]
           }
         },
         {
@@ -843,7 +830,7 @@ exports.level = {
         {
           "type": "ModalAlert",
           "options": {
-            "markdowns": ["## Creare un branch", "", "```", "$ jj new main", "```"]
+            "markdowns": ["## Creare un branch", "", "$ jj new main", ""]
           }
         },
         {
@@ -874,7 +861,7 @@ exports.level = {
         {
           "type": "ModalAlert",
           "options": {
-            "markdowns": ["## கிளை உருவாக்குதல்", "", "```", "$ jj new main", "```"]
+            "markdowns": ["## கிளை உருவாக்குதல்", "", "$ jj new main", ""]
           }
         },
         {
@@ -905,7 +892,7 @@ exports.level = {
         {
           "type": "ModalAlert",
           "options": {
-            "markdowns": ["## Dal oluşturma", "", "```", "$ jj new main", "```"]
+            "markdowns": ["## Dal oluşturma", "", "$ jj new main", ""]
           }
         },
         {
